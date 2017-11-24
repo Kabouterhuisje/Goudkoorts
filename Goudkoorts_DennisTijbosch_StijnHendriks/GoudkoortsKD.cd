@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Output">
+    <Position X="24" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAEAAABAAAABAAAAAAFIAAI=</HashCode>
+      <FileName>View\Output.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input">
+    <Position X="23.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Input.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Warehouse">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Warehouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicField">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\BasicField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <AssociationLine Name="isFull" Type="System.Boolean" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.344" Y="4.796" />
+        <Point X="19.344" Y="7.938" />
+        <Point X="16" Y="7.938" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAEAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Model\Car.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="isFull" />
+      <Property Name="DisplayChar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChangeableTrack">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <AssociationLine Name="IsUp" Type="System.Boolean" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10" Y="4.375" />
+        <Point X="10.5" Y="4.375" />
+        <Point X="10.5" Y="4.983" />
+        <Point X="14.75" Y="4.983" />
+        <Point X="14.75" Y="7.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.073" Y="0.184" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ChangeableTrack.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IsUp" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DestinationField">
+    <Position X="12.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DestinationField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmptyField">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\EmptyField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game">
+    <Position X="17.25" Y="5.5" Width="1.5" />
+    <AssociationLine Name="Track" Type="Track">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.046" Y="-0.26" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="IsGameOver" Type="System.Boolean" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="18.562" Y="6.988" />
+        <Point X="18.562" Y="7.5" />
+        <Point X="15.188" Y="7.5" />
+        <Point X="15.188" Y="7.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.067" Y="0.457" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Score" Type="System.Int32" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.25" Y="6.099" />
+        <Point X="17" Y="6.099" />
+        <Point X="17" Y="5.25" />
+        <Point X="17.688" Y="5.25" />
+        <Point X="17.688" Y="2.812" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.659" Y="0.088" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEAAAAgAAAAAAAAAAAAAAAABAAABAASAAAA=</HashCode>
+      <FileName>Model\Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="r" />
+      <Property Name="CarSpawnInterval" />
+      <Property Name="Track" />
+      <Property Name="IsGameOver" />
+      <Property Name="Score" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LeftChangeableTrack">
+    <Position X="9.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\LeftChangeableTrack.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IsUp" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Quay">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Model\Quay.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ship" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RightChangeableTrack">
+    <Position X="7.25" Y="5.25" Width="1.5" />
+    <AssociationLine Name="IsUp" Type="System.Boolean" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="6.675" />
+        <Point X="8" Y="8.25" />
+        <Point X="14.5" Y="8.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.159" Y="-0.286" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\RightChangeableTrack.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IsUp" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sea">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Sea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ship">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <AssociationLine Name="MaxLoad" Type="System.Int32" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.031" Y="1.925" />
+        <Point X="14.031" Y="3.187" />
+        <Point X="16.698" Y="3.187" Type="JumpStart" />
+        <Point X="16.865" Y="3.187" Type="JumpEnd" />
+        <Point X="17.5" Y="3.187" />
+        <Point X="17.5" Y="2.812" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Load" Type="System.Int32" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.406" Y="0.5" />
+        <Point X="14.406" Y="0.125" />
+        <Point X="15.125" Y="0.125" />
+        <Point X="15.125" Y="3.187" />
+        <Point X="16.562" Y="3.187" />
+        <Point X="16.562" Y="2.812" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Ship.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="MaxLoad" />
+      <Property Name="Load" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Track">
+    <Position X="15" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAiAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Model\Track.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="trackList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TrackField" Collapsed="true">
+    <Position X="11.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAIQAAAAAAAAAAEAAAAAEAAAAAAAAAAAAaAA=</HashCode>
+      <FileName>Model\TrackField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvalidMapLayoutException">
+    <Position X="7.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InvalidMapLayoutException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CannotDrawMapException">
+    <Position X="9.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\CannotDrawMapException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameController">
+    <Position X="21.25" Y="4.75" Width="1.5" />
+    <AssociationLine Name="_isGameStarted" Type="System.Boolean" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.594" Y="6.238" />
+        <Point X="21.594" Y="8.687" />
+        <Point X="15.562" Y="8.687" />
+        <Point X="15.562" Y="8.312" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="_game" Type="Game" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.25" Y="5.812" />
+        <Point X="19.427" Y="5.812" Type="JumpStart" />
+        <Point X="19.261" Y="5.812" Type="JumpEnd" />
+        <Point X="19" Y="5.812" />
+        <Point X="19" Y="5.023" />
+        <Point X="18.375" Y="5.023" />
+        <Point X="18.375" Y="5.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAABAAAFAAAAAAQAAAAACAAAEQ=</HashCode>
+      <FileName>Controller\GameController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_isGameStarted" />
+      <Field Name="_spawnIntervalCounter" />
+      <Field Name="_game" />
+      <Field Name="_inputView" />
+      <Field Name="_outputView" />
+      <Field Name="_gameTimer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="15" Y="4" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Bottom" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="System.Random" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Timers.Timer" Collapsed="true">
+    <Position X="22.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="System.Boolean" Collapsed="true">
+    <Position X="14.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Bottom" Position="0.1" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Int32" Collapsed="true">
+    <Position X="16.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Char" Collapsed="true">
+    <Position X="21.25" Y="3" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
